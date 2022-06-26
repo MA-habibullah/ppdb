@@ -12,7 +12,7 @@
                     <a target="_blank" href="mod_daftar/print_daftar.php?id=<?= $_GET['id'] ?>" type="button" class="btn btn-success"><i class="fas fa-print    "></i> Cetak Form</a>
                     <a target="_blank" href="mod_daftar/pernyataan.php?id=<?= $_GET['id'] ?>" type="button" class="btn btn-success"><i class="fas fa-print    "></i> Surat Pernyataan</a>
                 </div>
-                
+
             </div>
             <div class="card-body">
                 <div class="author-box-left">
@@ -35,7 +35,7 @@
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab3" data-toggle="tab" href="#profile3" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-user-friends    "></i> Orang Tua</a>
                         </li>
-                     <!--   <li class="nav-item">
+                        <!--   <li class="nav-item">
                             <a class="nav-link" id="contact-tab3" data-toggle="tab" href="#contact3" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-history    "></i> Histori</a>
                         </li> -->
                     </ul>
@@ -52,10 +52,11 @@
                                             <td align="right"><b>No. NIK</b></td>
                                             <td align="left"><?= $siswa['nik'] ?></td>
                                         </tr>
-                                                                                <tr>
+                                        <tr>
                                             <td align="right"><b>No. KK</b></td>
                                             <td align="left"><?= $siswa['no_kk'] ?></td>
-                                        </tr><tr>
+                                        </tr>
+                                        <tr>
                                             <td align="right"><b>Nama Lengkap</b></td>
                                             <td align="left"><?= $siswa['nama'] ?></td>
                                         </tr>
@@ -79,7 +80,7 @@
                                             <td align="right"><b>NPSN Sekolah Asal</b></td>
                                             <td align="left"><?= $siswa['npsn_asal']  ?></td>
                                         </tr>
-										<tr>
+                                        <tr>
                                             <td align="right"><b>Alamat Siswa</b></td>
                                             <td align="left"><?= $siswa['alamat']  ?></td>
                                         </tr>
@@ -88,7 +89,7 @@
                                             <td align="left"><?= $siswa['rt']  ?>, <?= $siswa['rw']  ?></td>
                                         </tr>
                                         <td align="right"><b>Desa</b></td>
-                                            <td align="left"><?= $siswa['desa']  ?></td>
+                                        <td align="left"><?= $siswa['desa']  ?></td>
                                         </tr>
                                         <tr>
                                             <td align="right"><b>Kecamatan</b></td>
@@ -126,7 +127,7 @@
                                             <td align="right"><b>Pernah TK/RA</b></td>
                                             <td align="left"><?= $siswa['tk']  ?></td>
                                         </tr>
-                                        
+
                                         <tr>
                                             <td align="right"><b>Status Dalam Keluarga</b></td>
                                             <td align="left"><?= $siswa['status_keluarga']  ?></td>
@@ -252,7 +253,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact-tab3">
-                            Vestibulum imperdiet odio sed neque ultricies, ut dapibus mi maximus. Proin ligula massa, gravida in lacinia efficitur, hendrerit eget mauris. Pellentesque fermentum, sem interdum molestie finibus, nulla diam varius leo, nec varius lectus elit id dolor.
+                            -
                         </div>
                     </div>
 

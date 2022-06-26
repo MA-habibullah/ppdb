@@ -29,9 +29,9 @@
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab3" data-toggle="tab" href="#profile3" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-user-friends    "></i> Orang Tua</a>
                         </li>
-                      <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" id="contact-tab3" data-toggle="tab" href="#contact3" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-history    "></i> Histori</a>
-                        </li> 
+                        </li> -->
                     </ul>
                     <div class="tab-content" id="myTabContent2">
                         <div class="tab-pane fade show active" id="home3" role="tabpanel" aria-labelledby="home-tab3">
@@ -46,10 +46,11 @@
                                             <td align="left"><b>No. NIK</b></td>
                                             <td align="left"><?= $siswa['nik'] ?></td>
                                         </tr>
-                                                                                <tr>
+                                        <tr>
                                             <td align="left"><b>No. KK</b></td>
                                             <td align="left"><?= $siswa['no_kk'] ?></td>
-                                        </tr><tr>
+                                        </tr>
+                                        <tr>
                                             <td align="left"><b>Nama Lengkap</b></td>
                                             <td align="left"><?= $siswa['nama'] ?></td>
                                         </tr>
@@ -73,7 +74,7 @@
                                             <td align="left"><b>NPSN Sekolah Asal</b></td>
                                             <td align="left"><?= $siswa['npsn_asal']  ?></td>
                                         </tr>
-										<tr>
+                                        <tr>
                                             <td align="left"><b>Alamat Siswa</b></td>
                                             <td align="left"><?= $siswa['alamat']  ?></td>
                                         </tr>
@@ -82,7 +83,7 @@
                                             <td align="left"><?= $siswa['rt']  ?>, <?= $siswa['rw']  ?></td>
                                         </tr>
                                         <td align="left"><b>Desa</b></td>
-                                            <td align="left"><?= $siswa['desa']  ?></td>
+                                        <td align="left"><?= $siswa['desa']  ?></td>
                                         </tr>
                                         <tr>
                                             <td align="left"><b>Kecamatan</b></td>
@@ -120,7 +121,7 @@
                                             <td align="left"><b>Pernah TK/RA</b></td>
                                             <td align="left"><?= $siswa['tk']  ?></td>
                                         </tr>
-										<tr>
+                                        <tr>
                                             <td align="left"><b>Cita Cita</b></td>
                                             <td align="left"><?= $siswa['citacita']  ?></td>
                                         </tr>
@@ -128,7 +129,7 @@
                                             <td align="left"><b>Hobi</b></td>
                                             <td align="left"><?= $siswa['hobi']  ?></td>
                                         </tr>
-                                        
+
                                         <tr>
                                             <td align="left"><b>Status Dalam Keluarga</b></td>
                                             <td align="left"><?= $siswa['status_keluarga']  ?></td>
@@ -153,12 +154,12 @@
                             <div class="table-responsiv">
                                 <table class="table table-striped table-sm ">
                                     <tbody>
-                                       
+
                                         <tr>
                                             <td align="left"><b>Status Ayah</b></td>
                                             <td align="left"><i class="fas fa-id-card text-success"></i> <?= $siswa['status_ayah'] ?></td>
                                         </tr>
-										<tr>
+                                        <tr>
                                             <td align="left"><b>NIK Ayah</b></td>
                                             <td align="left"><i class="fas fa-id-card text-success"></i> <?= $siswa['nik_ayah'] ?></td>
                                         </tr>
@@ -187,12 +188,12 @@
                                             <td align="left"><i class="fab fa-whatsapp text-success"></i> <?= $siswa['no_hp_ayah']  ?></td>
                                         </tr>
                                         <!-- DATA LENGKAP IBU -->
-                                        
+
                                         <tr>
                                             <td align="left"><b>Status Ibu</b></td>
                                             <td align="left"><i class="fas fa-id-card text-success"></i> <?= $siswa['status_ibu'] ?></td>
                                         </tr>
-										<tr>
+                                        <tr>
                                             <td align="left"><b>NIK Ibu</b></td>
                                             <td align="left"><i class="fas fa-id-card text-success"></i> <?= $siswa['nik_ibu'] ?></td>
                                         </tr>
@@ -222,7 +223,7 @@
                                         </tr>
 
                                         <!-- DATA LENGKAP WALI -->
-                                       
+
                                         <tr>
                                             <td align="left"><b>NIK Wali</b></td>
                                             <td align="left"><i class="fas fa-id-card text-success"></i> <?= $siswa['nik_wali'] ?></td>
@@ -256,7 +257,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact-tab3">
-                            Vestibulum imperdiet odio sed neque ultricies, ut dapibus mi maximus. Proin ligula massa, gravida in lacinia efficitur, hendrerit eget mauris. Pellentesque fermentum, sem interdum molestie finibus, nulla diam varius leo, nec varius lectus elit id dolor.
+                            -
                         </div>
                     </div>
 
